@@ -39,12 +39,29 @@
 
 // console.log(person);
 
-let selectedColours = ['red','green'];
-selectedColours[2] = 'blue';
-console.log(selectedColours[0]);
-console.log(selectedColours);
+// let selectedColours = ['red','green'];
+// selectedColours[2] = 'blue';
+// console.log(selectedColours[0]);
+// console.log(selectedColours);
 
-// js arrays are dynamic means there is no fixed size and we can store multiple data types in a single array
-// array is an object too
+// // js arrays are dynamic means there is no fixed size and we can store multiple data types in a single array
+// // array is an object too
 
-console.log(selectedColours.length);
+// console.log(selectedColours.length);
+
+// performing a task
+function greet(name, lastName){//<= name is a parameter
+    console.log('Hello ' + name + ' ' + lastName);
+}
+
+greet('Yasas');//<= name is an argument
+greet('Rajitha');//<= name is an argument
+greet('Yasas', 'Rajitha');
+
+// calculating a value
+function square(number){
+    return number * number
+}
+
+let number = square(2);
+console.log(number);
