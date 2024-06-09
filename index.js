@@ -27,14 +27,24 @@
 // let age = 30;
 // we can declare an object to store those variables as below
 
-let person = {
-    name : 'Yasas',
-    age:30
-};
-// Dot notation
-person.name = 'Rajitha';
+// let person = {
+//     name : 'Yasas',
+//     age:30
+// };
+// // Dot notation
+// person.name = 'Rajitha';
 
-// Bracket notation
-person['name'] = 'Rajitha';
+// // Bracket notation
+// person['name'] = 'Rajitha';
 
-console.log(person);
+// console.log(person);
+
+let selectedColours = ['red','green'];
+selectedColours[2] = 'blue';
+console.log(selectedColours[0]);
+console.log(selectedColours);
+
+// js arrays are dynamic means there is no fixed size and we can store multiple data types in a single array
+// array is an object too
+
+console.log(selectedColours.length);
