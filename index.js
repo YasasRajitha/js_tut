@@ -50,18 +50,32 @@
 // console.log(selectedColours.length);
 
 // performing a task
-function greet(name, lastName){//<= name is a parameter
-    console.log('Hello ' + name + ' ' + lastName);
-}
+// function greet(name, lastName){//<= name is a parameter
+//     console.log('Hello ' + name + ' ' + lastName);
+// }
 
-greet('Yasas');//<= name is an argument
-greet('Rajitha');//<= name is an argument
-greet('Yasas', 'Rajitha');
+// greet('Yasas');//<= name is an argument
+// greet('Rajitha');//<= name is an argument
+// greet('Yasas', 'Rajitha');
 
-// calculating a value
-function square(number){
-    return number * number
-}
+// // calculating a value
+// function square(number){
+//     return number * number
+// }
 
-let number = square(2);
-console.log(number);
+// let number = square(2);
+// console.log(number);
+
+// let x = 10;
+// let y = 3;
+
+// console.log(x % y);
+// console.log(x ** y);  // x^y
+
+// strict equality (check Type + value)
+console.log(1 === 1);
+console.log(1 === '1');
+
+// lose equality (check value)
+console.log(1 == '1');
+console.log(true == '1');
