@@ -15,8 +15,26 @@
 // interestRate = 1;
 // console.log(interestRate);
 
-let name = "Yasas";     //string
-let age = 30;           //integer
-let isApproved = true;  //boolean
-let fName = undefined;
-let lName = null;
+// let name = "Yasas";     //string
+// let age = 30;           //integer
+// let isApproved = true;  //boolean
+// let fName = undefined;
+// let lName = null;
+
+// js is a dynamic language because the type of the variables can change in the runtime
+
+// let name = 'Yasas';
+// let age = 30;
+// we can declare an object to store those variables as below
+
+let person = {
+    name : 'Yasas',
+    age:30
+};
+// Dot notation
+person.name = 'Rajitha';
+
+// Bracket notation
+person['name'] = 'Rajitha';
+
+console.log(person);
