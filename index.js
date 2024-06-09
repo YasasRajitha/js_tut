@@ -73,9 +73,13 @@
 // console.log(x ** y);  // x^y
 
 // strict equality (check Type + value)
-console.log(1 === 1);
-console.log(1 === '1');
+// console.log(1 === 1);
+// console.log(1 === '1');
 
-// lose equality (check value)
-console.log(1 == '1');
-console.log(true == '1');
+// // lose equality (check value)
+// console.log(1 == '1');
+// console.log(true == '1');
+
+let points = 110;
+let type = points > 100 ? 'Gold' : 'Silver';
+console.log(type);
