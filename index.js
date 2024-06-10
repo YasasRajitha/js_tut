@@ -80,6 +80,32 @@
 // console.log(1 == '1');
 // console.log(true == '1');
 
-let points = 110;
-let type = points > 100 ? 'Gold' : 'Silver';
-console.log(type);
+// let points = 110;
+// let type = points > 100 ? 'Gold' : 'Silver';
+// console.log(type);
+
+// Logical and (&&)
+// Returns True if both operands are true
+// console.log(true && true);
+// console.log(false && true);
+
+let highIncome = false;
+let goodCreditScore = true;
+// let eligibleForLoan = highIncome && goodCreditScore;
+let eligibleForLoan = highIncome || goodCreditScore;
+console.log('Eligible ',eligibleForLoan);
+
+// NOT (!)
+let applicationRefused = !eligibleForLoan;
+
+console.log('Application Refused ',applicationRefused);
+
+// Falsy (false)
+// undefined
+// null
+// 0
+// false
+// '
+// NaN
+
+// Anything that is not falsy -> Truthy
